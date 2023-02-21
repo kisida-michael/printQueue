@@ -8,7 +8,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 const url = `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 pdfjs.GlobalWorkerOptions.workerSrc = url;
-const ENDPOINT = 'http://192.168.0.223:5000';
+const ENDPOINT = 'https://printbrhs.michaelkisida.com';
 
 const FileUpload = () => {
   const [pdfFileData, setPdfFileData] = useState();

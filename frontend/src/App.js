@@ -4,7 +4,7 @@ import socketIOClient from 'socket.io-client';
 import FileUpload from './components/FileUpload';
 import ProgressBar from './components/ProgressBar';
 
-const ENDPOINT = 'http://192.168.0.223:5000';
+const ENDPOINT = 'https://printbrhs.michaelkisida.com';
 
 const App = () => {
   const [progressBars, setProgressBars] = useState([]);
